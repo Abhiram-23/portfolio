@@ -1,0 +1,27 @@
+.main-box-resume {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+}
+/* src/transitions.css */
+.fade-enter {
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.fade-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 300ms, transform 4000ms;
+}

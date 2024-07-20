@@ -1,0 +1,29 @@
+.project-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Poppins regular";
+}
+
+.project-name {
+  color: rgb(249, 85, 2);
+  font-family: "Poppins bold";
+}
+
+.project-year {
+  background-color: rgb(249, 85, 2);
+  color: white;
+  font-family: "Poppins semibold";
+  padding: 6px;
+  border-radius: 12px;
+  width: 150px;
+}
+
+.tech-used {
+  font-style: italic;
+}
+
+.tech-stack {
+  font-family: "Poppins bold";
+  padding-left: 5px;
+}

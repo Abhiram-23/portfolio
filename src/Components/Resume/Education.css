@@ -1,0 +1,25 @@
+.education-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Poppins regular";
+  width: 100%;
+}
+
+.univ-name {
+  color: rgb(249, 85, 2);
+  font-family: "Poppins bold";
+}
+
+.grad-year {
+  background-color: rgb(249, 85, 2);
+  color: white;
+  font-family: "Poppins semibold";
+  padding: 6px;
+  border-radius: 12px;
+  align-items: center;
+}
+
+.percentage {
+  font-family: "Poppins semibold";
+}

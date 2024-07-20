@@ -12,7 +12,7 @@ export default function Profile() {
           <div className="colz">
             <div className="colz-icons">
               <a
-                className="icons"
+                className="icons blink"
                 href="https://www.linkedin.com/in/abhirampaidimarri/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -20,7 +20,7 @@ export default function Profile() {
                 <i class="fa fa-linkedin"></i>
               </a>
               <a
-                className="icons"
+                className="icons blink"
                 href="https://github.com/Abhiram-23"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -28,7 +28,7 @@ export default function Profile() {
                 <img className="logo" src={git} alt="git" />
               </a>
               <a
-                className="icons"
+                className="icons blink"
                 href="https://leetcode.com/abhiram_paidimarri/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -36,7 +36,7 @@ export default function Profile() {
                 <img className="logo" src={leetcode} alt="Leetcode" />
               </a>
               <a
-                className="icons"
+                className="icons blink"
                 href="https://www.hackerrank.com/profile/pabhi2000"
                 target="_blank"
                 rel="noopener noreferrer"

@@ -142,3 +142,39 @@
   border-radius: 10px;
   height: 25px;
 }
+
+.colz-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.icons {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.icons:hover {
+  transform: scale(1.1);
+}
+
+.blink {
+  animation: blink-animation 1.5s infinite;
+}
+
+@keyframes blink-animation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.logo {
+  width: 30px; /* Adjust size as needed */
+  height: 30px; /* Adjust size as needed */
+}

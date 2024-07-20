@@ -1,4 +1,3 @@
-// src/Skills.js
 import React, { useState, useEffect } from "react";
 import "./Skills.css";
 
